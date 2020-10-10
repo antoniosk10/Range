@@ -1,0 +1,45 @@
+.range-wrap {
+    width: 300px;
+}
+
+.field {
+    position: relative;
+    width: 200px;
+    height: 20px;
+    background-color: aquamarine;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.dragElement {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.field-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.result-block {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.result-block__input {
+    width: 50px;
+    text-align: center;
+}
